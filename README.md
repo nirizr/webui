@@ -27,14 +27,7 @@ For debugging like setup you'll need (but since it's used for internal tools, th
 
 ### Dependencies ###
 
-`argparseweb` requires `web.py` to be available. You can install it (check for the latest version) by:
-
-```bash
-wget http://webpy.org/static/web.py-0.38.tar.gz
-tar -xvzf web.py-0.38.tar.gz
-cd web.py-0.38
-python setup.py install
-```
+`argparseweb` requires `web.py` to be available. You can install it (check for the latest version) with: `pip install web.py`
 
 ### Basic examples ###
 This example will set up an http server, get one valid input, tear the http server down, print a welcoming message to stdout and exit:
